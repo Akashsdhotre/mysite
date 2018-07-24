@@ -1,0 +1,80 @@
+
+.top-bar
+{
+	background-color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 5px;
+
+
+}
+
+
+
+
+@media screen and (min-width: 601px) {
+  div.logotext-r {
+    font-size: 20px;
+    width: 100px; 
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.logotext-r {
+    font-size: 15px;
+        width: 100px; 
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}
+
+
+
+div.contact-mail-r
+{
+	font-size: 12px;
+	padding-top: 5px;
+
+}
+
+@media screen and (min-width: 601px) {
+  div.contact-mail-r {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.contact-mail-r {
+    font-size: 10px;
+  }
+}
+
+.logo 
+{
+	float: left;
+	width: 50px;
+}
+
+/* unvisited link */
+a:link {
+    color: #4d4d4d;
+}
+
+/* visited link */
+a:visited {
+    color: #4d4d4d;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ff5400;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+

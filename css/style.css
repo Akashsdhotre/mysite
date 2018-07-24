@@ -1,0 +1,143 @@
+
+.top-bar
+{
+	background-color: #ffffff;
+}
+
+
+
+
+@media screen and (min-width: 601px) {
+  div.logotext-r {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.logotext-r {
+    font-size: 12px;
+
+  }
+}
+
+
+
+div.contact-mail-r
+{
+	font-size: 12px;
+	padding-top: 10px;
+
+}
+
+@media screen and (min-width: 601px) {
+  div.contact-mail-r {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.contact-mail-r {
+    font-size: 10px;
+  }
+}
+
+.logo 
+{
+	float: left;
+	width: 50px;
+}
+
+.logo:hover 
+{
+ 
+  /*width: 55px;*/
+  transform: scale(1.05);
+}
+
+.cart-hover:hover 
+{
+ 
+  transform: scale(1.20);
+  color: #ffffff;
+}
+
+.cart-back-hover:hover 
+{
+    background-color: #ff5400;
+}
+
+.logo-text-hover:hover 
+{
+ 
+/*  color: #4d4d4d;
+*/
+  transform: scale(1.05);
+}
+
+.image-hover:hover 
+{
+  transform: scale(1.05);
+}
+
+
+/* unvisited link */
+a:link {
+    color: #4d4d4d;
+}
+
+/* visited link */
+a:visited {
+    color: #4d4d4d;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ff5400;
+  transform: scale(1.20);
+
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+.navbar-nav>li>a.active {
+  color: #ffffff;
+  background: #c54305;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+  color: #fff;
+  background: #c54305;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #fff;
+  background: #c54305;
+}
+
+
+
+.card-image {
+  /*  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;*/
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
