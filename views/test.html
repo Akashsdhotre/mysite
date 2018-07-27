@@ -26,10 +26,6 @@
 </head>
 <body ng-controller = "myCtlr">
 
-<input type="text" ng-model = "var">
-<h1>{{cartValue}}</h1>
-
-
 <!-- top bar and logo -->
 
 <div class="container-fluid top-bar" >
@@ -85,7 +81,7 @@
 <!--  Navigation bar
  -->
 
- <nav class="navbar navbar-default" >
+ <nav class="navbar navbar-default" data-spy="affix" data-offset-top="197">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -186,18 +182,21 @@
           <div>
             <a href="test.html">
               <img src="../images/gal1.jpg" class="img-responsive image-hover">
-              <div class="caption" style="margin-top: 10px">
+              </a>
+
+                    <div class="caption" style="margin-top: 10px">
                 <p style="text-align: center;">price
                 <span style="padding-left: 5px padding-right:5px"><b>800/-</b>
                 </span>
                 <span style="padding-left: 5px;padding-right: 5px;">
-                    <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
+                     <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
                       <i class="fa fa-shopping-cart cart-hover" style="padding-right: 5px"></i>
                     </button>
                 </span>
                 </p>
           </div>
-            </a>
+            
+                  
           </div> 
 
       </div>
@@ -206,58 +205,66 @@
           <div>
             <a href="test.html">
               <img src="../images/gal2.jpg" class="img-responsive image-hover">
+              </a>
+
                     <div class="caption" style="margin-top: 10px">
                 <p style="text-align: center;">price
                 <span style="padding-left: 5px padding-right:5px"><b>800/-</b>
                 </span>
                 <span style="padding-left: 5px;padding-right: 5px;">
-                    <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
+                     <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
                       <i class="fa fa-shopping-cart cart-hover" style="padding-right: 5px"></i>
                     </button>
                 </span>
                 </p>
           </div>
-            </a>
+            
+                  
           </div> 
 
       </div>
-
        <div class="col-md-3 col-sm-6 col-xs-12">
           <div>
             <a href="test.html">
               <img src="../images/gal3.jpg" class="img-responsive image-hover">
+              </a>
+
                     <div class="caption" style="margin-top: 10px">
                 <p style="text-align: center;">price
                 <span style="padding-left: 5px padding-right:5px"><b>800/-</b>
                 </span>
                 <span style="padding-left: 5px;padding-right: 5px;">
-                    <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
+                     <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
                       <i class="fa fa-shopping-cart cart-hover" style="padding-right: 5px"></i>
                     </button>
                 </span>
                 </p>
           </div>
-            </a>
+            
+                  
           </div> 
 
       </div>
 
-       <div class="col-md-3 col-sm-6 col-xs-12">
+<div class="col-md-3 col-sm-6 col-xs-12">
           <div>
             <a href="test.html">
               <img src="../images/gal4.jpg" class="img-responsive image-hover">
+              </a>
+
                     <div class="caption" style="margin-top: 10px">
                 <p style="text-align: center;">price
                 <span style="padding-left: 5px padding-right:5px"><b>800/-</b>
                 </span>
                 <span style="padding-left: 5px;padding-right: 5px;">
-                    <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
+                     <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
                       <i class="fa fa-shopping-cart cart-hover" style="padding-right: 5px"></i>
                     </button>
                 </span>
                 </p>
           </div>
-            </a>
+            
+                  
           </div> 
 
       </div>
@@ -268,93 +275,102 @@
 
 <!-- gallary 2 -->
 
-<div class="container" style="margin-top: 50px">
+  <div class="container" style="margin-top: 50px">
 
-   <div class="row">
-      
-      <div class="col-md-3 col-sm-6 col-xs-12">
-          <div>
-            <a href="test.html">
-              <img src="../images/gal1.jpg" class="img-responsive image-hover">
-              <div class="caption" style="margin-top: 10px">
-                <p style="text-align: center;">price
-                <span style="padding-left: 5px padding-right:5px"><b>800/-</b>
-                </span>
-                <span style="padding-left: 5px;padding-right: 5px;">
-                    <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
-                      <i class="fa fa-shopping-cart cart-hover" style="padding-right: 5px"></i>
-                    </button>
-                </span>
-                </p>
-          </div>
-            </a>
-          </div> 
+     <div class="row">
+        
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div>
+              <a href="test.html">
+                <img src="../images/gal1.jpg" class="img-responsive image-hover">
+                </a>
 
-      </div>
+                      <div class="caption" style="margin-top: 10px">
+                  <p style="text-align: center;">price
+                  <span style="padding-left: 5px padding-right:5px"><b>800/-</b>
+                  </span>
+                  <span style="padding-left: 5px;padding-right: 5px;">
+                       <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
+                        <i class="fa fa-shopping-cart cart-hover" style="padding-right: 5px"></i>
+                      </button>
+                  </span>
+                  </p>
+            </div>
+              
+                    
+            </div> 
 
-       <div class="col-md-3 col-sm-6 col-xs-12">
-          <div>
-            <a href="test.html">
-              <img src="../images/gal2.jpg" class="img-responsive image-hover">
-                    <div class="caption" style="margin-top: 10px">
-                <p style="text-align: center;">price
-                <span style="padding-left: 5px padding-right:5px"><b>800/-</b>
-                </span>
-                <span style="padding-left: 5px;padding-right: 5px;">
-                    <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
-                      <i class="fa fa-shopping-cart cart-hover" style="padding-right: 5px"></i>
-                    </button>
-                </span>
-                </p>
-          </div>
-            </a>
-          </div> 
+        </div>
 
-      </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div>
+              <a href="test.html">
+                <img src="../images/gal2.jpg" class="img-responsive image-hover">
+                </a>
 
-       <div class="col-md-3 col-sm-6 col-xs-12">
-          <div>
-            <a href="test.html">
-              <img src="../images/gal3.jpg" class="img-responsive image-hover">
-                    <div class="caption" style="margin-top: 10px">
-                <p style="text-align: center;">price
-                <span style="padding-left: 5px padding-right:5px"><b>800/-</b>
-                </span>
-                <span style="padding-left: 5px;padding-right: 5px;">
-                    <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
-                      <i class="fa fa-shopping-cart cart-hover" style="padding-right: 5px"></i>
-                    </button>
-                </span>
-                </p>
-          </div>
-            </a>
-          </div> 
+                      <div class="caption" style="margin-top: 10px">
+                  <p style="text-align: center;">price
+                  <span style="padding-left: 5px padding-right:5px"><b>800/-</b>
+                  </span>
+                  <span style="padding-left: 5px;padding-right: 5px;">
+                       <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
+                        <i class="fa fa-shopping-cart cart-hover" style="padding-right: 5px"></i>
+                      </button>
+                  </span>
+                  </p>
+            </div>
+              
+                    
+            </div> 
 
-      </div>
+        </div>
 
-       <div class="col-md-3 col-sm-6 col-xs-12">
-          <div>
-            <a href="test.html">
-              <img src="../images/gal4.jpg" class="img-responsive image-hover">
-                    <div class="caption" style="margin-top: 10px">
-                <p style="text-align: center;">price
-                <span style="padding-left: 5px padding-right:5px"><b>800/-</b>
-                </span>
-                <span style="padding-left: 5px;padding-right: 5px;">
-                    <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
-                      <i class="fa fa-shopping-cart cart-hover" style="padding-right: 5px"></i>
-                    </button>
-                </span>
-                </p>
-          </div>
-            </a>
-          </div> 
+         <div class="col-md-3 col-sm-6 col-xs-12">
+            <div>
+              <a href="test.html">
+                <img src="../images/gal3.jpg" class="img-responsive image-hover">
+                      <div class="caption" style="margin-top: 10px">
+                  <p style="text-align: center;">price
+                  <span style="padding-left: 5px padding-right:5px"><b>800/-</b>
+                  </span>
+                  <span style="padding-left: 5px;padding-right: 5px;">
+                      <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
+                        <i class="fa fa-shopping-cart cart-hover" style="padding-right: 5px"></i>
+                      </button>
+                  </span>
+                  </p>
+            </div>
+              </a>
+            </div> 
 
-      </div>
+        </div>
 
-   </div>
-  
-</div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+            <div>
+              <a href="test.html">
+                <img src="../images/gal4.jpg" class="img-responsive image-hover">
+                </a>
+
+                      <div class="caption" style="margin-top: 10px">
+                  <p style="text-align: center;">price
+                  <span style="padding-left: 5px padding-right:5px"><b>800/-</b>
+                  </span>
+                  <span style="padding-left: 5px;padding-right: 5px;">
+                       <button type="button" ng-click ="increaseCartCount()" class="btn btn-default cart-back-hover">
+                        <i class="fa fa-shopping-cart cart-hover" style="padding-right: 5px"></i>
+                      </button>
+                  </span>
+                  </p>
+            </div>
+              
+                    
+            </div> 
+
+        </div>
+
+     </div>
+    
+  </div>
 
 <!-- schemes -->
 
